@@ -1,7 +1,7 @@
 // Allow for password encryption
 import bcrypt from "bcrypt";
 //give user a webtoken for authorization
-import { Jwt } from "jsonwebtoken";
+import jwt from "jsonwebtoken";
 import User from "../models/User.js";
 
 // Register User
